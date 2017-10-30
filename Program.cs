@@ -31,6 +31,7 @@ namespace Ejercicio_Cuentas
             double numero = 02204832437;
             string telefono = numero.ToString("(###) ###-####");
             cliente1.Telefono = telefono; 
+            cliente1.FechaNacimiento = new DateTime(1956, 7, 23);
 
             List<Cuenta> ListaCuentas = new List<Cuenta>();
 
